@@ -1,0 +1,15 @@
+TILDE - webapp instalable (PWA)
+
+Contenido: index.html, manifest.webmanifest, sw.js y la carpeta icons.
+Sube la carpeta ENTERA a cualquier hosting estático con HTTPS (Netlify Drop, GitHub Pages, Vercel, Cloudflare Pages...).
+No hace falta servidor ni base de datos: el progreso se guarda en el navegador de cada dispositivo.
+
+Instalar:
+- Android (Chrome): menú ⋮ > Instalar aplicación.
+- iPhone (Safari): botón Compartir > Añadir a pantalla de inicio.
+- Ordenador (Chrome/Edge): icono de instalar en la barra de direcciones.
+
+Funciona sin conexión después de la primera carga.
+Leo (conversación con IA) solo funciona dentro de Claude: en la webapp aparece como no disponible.
+Para actualizar: sustituye los ficheros; el service worker renueva la caché solo.
+Para probar en local: python3 -m http.server dentro de la carpeta y abre http://localhost:8000

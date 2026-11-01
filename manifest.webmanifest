@@ -1,0 +1,32 @@
+{
+ "name": "Tilde",
+ "short_name": "Tilde",
+ "description": "Aprende inglés y japonés con lecciones cortas y repaso espaciado.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#F2F8F4",
+ "theme_color": "#0B8A57",
+ "lang": "es",
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
